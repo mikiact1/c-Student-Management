@@ -1,0 +1,6 @@
+Abebe               Lemma               1001           CS                       45        
+Alemu               Feleke              1002           ACC                      55        
+Lemlem              G/Micael            1003           ACC                      49        
+Fikadu              Mekonnen            1004           CS                       47        
+Girum               Belete              1005           ACC                      58        
+Girma               Wondesen            1006           CS                       68        

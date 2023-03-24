@@ -1,0 +1,8 @@
+Introduction_To_C++                     C-2001         4                        
+Linear_Algebra                          C-2002         4                        
+Social_Anthropology                     C-2003         3                        
+Advanced_Database                       C-2004         4                        
+Object_Oriented_Programming             C-2005         3                        
+Economics                               C-2006         3                        
+Operating_System                        C-2007         3                        
+Information_Retrieval                   C-2008         3                        

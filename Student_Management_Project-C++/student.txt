@@ -1,0 +1,17 @@
+Mikyas              Moges               161-21A        CS                       25        
+Eyuel               Suraphal            142-21A        ACC                      22        
+Tomas               Tesema              191-21A        CS                       22        
+Yadno               Gellessa            190-21A        ACC                      22        
+Abel                Alemu               124-21A        MGT                      26        
+Girum               Ermiyas             155-21A        CS                       19        
+Mahlet              G/Meskel            141-21A        CS                       21        
+Nardos              Bekalu              132-21A        CS                       23        
+Alemu               Feleke              149-21A        CS                       37        
+Buruk               Alemu               174-21A        ACC                      21        
+Geremew             Assefa              123-21A        CS                       28        
+Wendimu             Jira                193-21A        MSC                      37        
+Natnael             Twedros             171-21A        ACC                      20        
+Befikadu            Tesfaw              125-21A        ACC                      21        
+Amanuel             Kelil               126-21A        CS                       22        
+Natnael             Demile              183-21A        CS                       21        
+Biruk               Abebe               120-21A        MSE                      20        
