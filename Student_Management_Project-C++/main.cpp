@@ -6,16 +6,15 @@
 #include <windows.h>
 using namespace std;
 
-//this is used to display success and error messages in different colours
+
 HANDLE color_of_texts =GetStdHandle(STD_OUTPUT_HANDLE);
 
 fstream file1,file2;
-//an array that I use to store id from file to check user input/new id is used by another student
+
 string *arr = new string[50];
 
-//int size = 0;//the size of students that registered in a student file
+
 string Name,L_Name,ID,Department,Age;
-//These are the functions that I use for different purpose
 void home_page();
 void display_student_information();
 void register_student();
@@ -42,14 +41,7 @@ struct Instructor{
      int Age = 0;
 };
 
-/**this register_student() function works like this
- * 1.it store all Id's of registered students in an array called arr[] this is to make easier to check if id is already exist
- * 2.and again it open student.txt in append mode to write/register students into the file
- * 3.when user prompt to Enter Id it uses the array arr[] which previously stores all the id's that exist
- * 4.and then using for() loop and if() statement it checks one user input Id to all the id's already in use
- * 5.if id is not taken by another student it continues and ask students department
- * 6.then by giving equal space it writes all the information of students in to a file and the user is registered.
-*/
+
 void register_student() {
     bool is_exist = false;
     int tries = 0;
@@ -85,7 +77,7 @@ file1.open("student.txt",ios::app);
             cout << "Enter Student Last Name: ";
             cin >> s1[i].L_Name;
             int j = 0;
-// allowed to try 3x to ender id that doesn't exist
+// allowed to try 3x to enter id that doesn't exist
 
 
             while( tries != 3){
@@ -333,11 +325,10 @@ string is_id_exist(){
 
 
 void update_student_information(){
-    //when updating ID I need to check id is not going to repeat
-    //I have is_id_exist function if the user input id exists it return a string "0"
+   
     string return_value ="0";
 
-    // cout<<is_id_exist()<<endl<<return_value<<endl;
+   
     int choose,size;
     bool is_the_id_exist = false;
     bool is_updated = false;
@@ -469,10 +460,7 @@ void update_student_information(){
 
             }
         }
-        /** I use this code after user enter An ID and if that ID is not existed in student information
-         *if the user input id contain a student information it perform an update otherwise it delete the temp.txt file
-         * and close the opened files and close the update function and prompts the user to try again or to go back to the home page
-        */
+       
         if(!is_the_id_exist){
             file1.close();
             file2.close();
